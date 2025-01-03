@@ -1,0 +1,37 @@
+body{
+    background: #1c1b1b;
+    color: grey;
+    text-align:center;
+    font-size: 56px;
+}
+
+.about_me li{
+    font-size: 36px;
+}
+
+.section button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(1, 121, 1);
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 20%;
+    top : -25%;
+    right : 0%;
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 50px;
+    line-height: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.section button:active{
+    background: grey;
+}
+
